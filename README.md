@@ -1,6 +1,6 @@
 ## 简介
 
-本项目每周四自动生成 GeoIP 文件。
+本项目每天上午6点自动生成 Geoip 文件。
 
 - 包含类别（方便有需求的用户使用）：
   - `geoip:cloudflare`（`GEOIP,CLOUDFLARE`）
