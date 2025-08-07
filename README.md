@@ -1,11 +1,8 @@
-# 简介
+## 简介
 
-本项目每周四自动生成 GeoIP 文件，包括但不限于 V2Ray dat 格式路由规则文件 `geoip.dat` 和 MaxMind mmdb 格式文件 `Country.mmdb`。
+本项目每周四自动生成 GeoIP 文件。
 
-
-## 与官方版 GeoIP 的区别
-国家仅包含cn/jp
-- 新增类别（方便有特殊需求的用户使用）：
+- 包含类别（方便有需求的用户使用）：
   - `geoip:cloudflare`（`GEOIP,CLOUDFLARE`）
   - `geoip:cloudfront`（`GEOIP,CLOUDFRONT`）
   - `geoip:facebook`（`GEOIP,FACEBOOK`）
@@ -15,11 +12,12 @@
   - `geoip:twitter`（`GEOIP,TWITTER`）
   - `geoip:bilibili`（`GEOIP,BILIBILI`）
   - `geoip:apple`（`GEOIP,APPLE`）
+  - `geoip:cn`（`GEOIP,CN`）
 
-## License
+## **下载地址**：
 
-[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-
-This product includes GeoLite2 data created by MaxMind, available from [MaxMind](http://www.maxmind.com).
-
-#
+| 文件名              | Github release                                                                                                            | JSdelivr                                                                                                                           | JSdelivr-CF                                                                                                                              |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| geoip.dat      | [下载](https://github.com/rts600/geoip/releases/download/latest/geoip.dat)                               | [下载](https://cdn.jsdelivr.net/gh/rts600/geoip@release/geoip.dat)                                                  | [下载](https://testingcf.jsdelivr.net/gh/rts600/geoip@release/geoip.dat)                                                  |
+| geoip-only-cn-private.dat         | [下载](https://github.com/rts600/geoip/releases/download/latest/geoip-only-cn-private.dat)                                  | [下载](https://cdn.jsdelivr.net/gh/rts600/geoip@release/geoip-only-cn-private.dat)                                                     | [下载](https://testingcf.jsdelivr.net/gh/rts600/geoip@release/geoip-only-cn-private.dat)                                                     |
+| Country-only-cn-private.mmdb   | [下载](https://github.com/rts600/geoip/releases/download/latest/Country-only-cn-private.mmdb)                              | [下载](https://cdn.jsdelivr.net/gh/rts600/geoip@release/Country-only-cn-private.mmdb)                                                 | [下载](https://testingcf.jsdelivr.net/gh/rts600/geoip@release/Country-only-cn-private.mmdb)                                                 |
