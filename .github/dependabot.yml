@@ -17,7 +17,7 @@ updates:
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
       timezone: "Asia/Shanghai"
       time: "07:00"
     pull-request-branch-name:
